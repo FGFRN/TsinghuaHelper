@@ -11,7 +11,7 @@
   'use strict';
   const VERSION = '0.1.0';
   const PROJECT_URL = 'https://github.com/FGFRN/TsinghuaHelper';
-  const PREPARATION_URL = '';
+  const PREPARATION_URL = 'https://github.com/FGFRN/TsinghuaHelper/tree/master#%E9%9F%B3%E9%A2%91%E4%B8%B2%E8%81%94%E5%87%86%E5%A4%87obs-studio--vb-cable';
   const loopbackKey = 'te-assistant.loopback-mode';
   let loopbackEnabled = true;
   try { loopbackEnabled = localStorage.getItem(loopbackKey) !== 'false'; } catch {}

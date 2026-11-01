@@ -1,12 +1,12 @@
 # TsinghuaHelper
 
-清华社英语学习网站的浏览器用户脚本，当前版本 **0.1.0**。适配 `https://www.tsinghuaelt.com/` 的部分练习与页面操作。
+清华社英语学习网站的浏览器用户脚本，当前版本 **0.1.0**，目前处于测试阶段。适配 `https://www.tsinghuaelt.com/` 的部分练习与页面操作。
 
 支持填空、单选、多选、判断、拖拽配对、主观文本、普通录音，以及基于音频回环的跟读和角色扮演。网站更新可能导致功能失效，请先在单页验证，再开启连续处理。
 
 ## 安装
 
-**[点击安装 TsinghuaHelper](https://raw.githubusercontent.com/FGFRN/TsinghuaHelper/master/tsinghua-fill.user.js)**
+> **[点击此处安装 TsinghuaHelper](https://raw.githubusercontent.com/FGFRN/TsinghuaHelper/master/tsinghua-fill.user.js)**
 
 1. 在浏览器中安装支持用户脚本的扩展，例如 [Tampermonkey](https://www.tampermonkey.net/)。
 2. 点击上面的一键安装链接，在扩展提供的安装页面确认安装。
@@ -35,7 +35,11 @@
 
 角色扮演会关联前页跟读数据中的角色、台词和样本资源。请先加载对应跟读页，再进入角色扮演页；刷新或直接打开角色页可能导致样本缓存不足。
 
-## 音频串联准备：OBS Studio + VB-CABLE
+## 自动化跟读题的音频串联准备：OBS Studio + VB-CABLE
+
+对于新版清华社，由于直接把样本语音转给录音评测过于复杂，这个脚本采取的是**我们播放，清华社录制**的方式。
+
+**如果你的环境足够安静，可以不考虑进行音频串联；** 但是如果你的环境比较嘈杂，就要进行音频串联，让网站录音时直接听取到的是你电脑播放的原声。
 
 以下是 Windows 的一种配置方案。不同版本的设置名称可能略有差异。无需直播，也无需点击 OBS 的“开始录制”，只需要让 OBS 的音频捕获和监听保持工作。
 
