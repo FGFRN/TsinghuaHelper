@@ -2,7 +2,7 @@
 // @name         清华社视听说 - 新版填空与单选适配
 // @namespace    local.tsinghuaelt.fill
 // @author       FGFRN
-// @version      0.1.0
+// @version      0.1.1
 // @description  自动化完成清华社学习任务
 // @match        https://www.tsinghuaelt.com/*
 // @grant        none
@@ -10,9 +10,9 @@
 // ==/UserScript==
 (async () => {
   'use strict';
-  const VERSION = '0.1.0';
+  const VERSION = '0.1.1';
   const PROJECT_URL = 'https://github.com/FGFRN/TsinghuaHelper';
-  const PREPARATION_URL = 'https://github.com/FGFRN/TsinghuaHelper/tree/master#%E9%9F%B3%E9%A2%91%E4%B8%B2%E8%81%94%E5%87%86%E5%A4%87obs-studio--vb-cable';
+  const PREPARATION_URL = 'https://github.com/FGFRN/TsinghuaHelper/tree/master#%E8%87%AA%E5%8A%A8%E5%8C%96%E8%B7%9F%E8%AF%BB%E9%A2%98%E7%9A%84%E9%9F%B3%E9%A2%91%E4%B8%B2%E8%81%94%E5%87%86%E5%A4%87obs-studio--vb-cable';
   const loopbackKey = 'te-assistant.loopback-mode';
   let loopbackEnabled = true;
   try { loopbackEnabled = localStorage.getItem(loopbackKey) !== 'false'; } catch {}
