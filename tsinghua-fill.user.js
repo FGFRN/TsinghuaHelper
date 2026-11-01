@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         清华社视听说 - 新版填空与单选适配
 // @namespace    local.tsinghuaelt.fill
+// @author       FGFRN
 // @version      0.1.0
 // @description  自动化完成清华社学习任务
 // @match        https://www.tsinghuaelt.com/*
